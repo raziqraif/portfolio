@@ -1,25 +1,71 @@
 import * as React from 'react';
-import {Button} from 'react-bootstrap';
+import {Button, Nav} from 'react-bootstrap';
+import profile from '../images/profile.png'
 
 const aboutStyle = {
-    maxWidth: "1200px",
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "row" as "row",
     alignItems: "center",
-    alignSelf: "center"
+    alignSelf: "center",
+    padding: "64px 0px 64px 0px",
+}
+
+const profileImageWidth = "260px"
+const profileImageHeight = "260px"
+
+const imageCropperStyle = {
+    width: profileImageWidth,
+    height: profileImageHeight,
+    position: "relative" as "relative",
+    overflow: "hidden",
+}
+
+const profileStyle = {
+    display: "inline",
+    margin: "0 auto",
+    height: "100%",
+    width: "auto",
+    borderRadius: "4px"
+}
+
+const titleStyle = {
+    fontFamily: "Montserrat",
+    maxWidth: "500px",
+    textAlign: "left" as "left",
+}
+
+const textStyle = {
+    fontFamily: "Montserrat",
+    maxWidth: "500px",
+    textAlign: "left" as "left",
+}
+
+const textWrapperStyle = {
+    height: "100%",
+}
+
+const socialsWrapperStyle = {
+    display: "flex",
 }
 
 export default class About extends React.Component {
     render() {
         return (
             <div id={"about"} style={aboutStyle}>
-                <h1>Hello, I'm Raziq</h1>
-                <p style={{maxWidth: "800px"}}>I'm a junior from Purdue University majoring in Computer Science and
-                    minoring in Mathematics. From my previous software
-                    development roles, I have mostly been working on Python applications, but I'm aiming for a web
-                    developer role for my next gig.
-                </p>
+                <div id={"text-wrapper"} style={textWrapperStyle}>
+                    <h1 style={titleStyle}>Hi, I'm Raziq</h1>
+                    <p style={textStyle}>I'm a junior at Purdue University majoring in Computer Science and
+                        minoring in Mathematics.
+                    </p>
+                    <div id={"socials-wrapper"} style={socialsWrapperStyle}>
+                    </div>
+                </div>
+                <div id={"image-cropper"} style={imageCropperStyle}>
+                    <img src={profile} width={"280px"} alt={"Raziq Ramli"} style={profileStyle}/>
+                </div>
             </div>
         );
     }
 }
+// <Button variant={"secondary"}>Resume</Button>
+// <h3>Hello, I'm Raziq</h3>

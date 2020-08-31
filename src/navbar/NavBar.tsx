@@ -1,10 +1,14 @@
 import * as React from 'react';
-import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 interface NavBarProps{
 }
 
 interface NavBarState{
+}
+
+const navbarStyle = {
+    maxWidth: "900px"
 }
 
 export default class NavBar extends React.Component<NavBarProps, NavBarState> {
@@ -14,18 +18,21 @@ export default class NavBar extends React.Component<NavBarProps, NavBarState> {
     }
     render() {
         return (
-            <Navbar collapseOnSelect expand="md" bg="light" variant="light">
-                <Navbar.Brand href="/">
-                    RR
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                    <Nav>
-                        <Nav.Link>About</Nav.Link>
-                        <Nav.Link>Projects</Nav.Link>
-                        <Nav.Link>Contact</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
+            <Navbar collapseOnSelect expand="md" bg="light" variant="light" sticky={"top"}>
+                <Container style={navbarStyle}>
+                    <Navbar.Brand href="/">
+                        {"<raziqraif>"}
+                    </Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                        <Nav>
+                            <Nav.Link href={"http://bit.ly/raziq-resume"} target={"_blank"}>Resume</Nav.Link>
+                            <Nav.Link href={"#about"}>About</Nav.Link>
+                            <Nav.Link href={"#projects"}>Projects</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+
+                </Container>
             </Navbar>
         );
     }
