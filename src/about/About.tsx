@@ -36,12 +36,12 @@ const socialsWrapperStyle = {
 }
 
 const titleStyle = {
-    fontFamily: "Montserrat",
+    fontFamily: "Montserrat !important",
     textAlign: "left" as "left",
 }
 
 const textStyle = {
-    fontFamily: "Montserrat",
+    fontFamily: "Montserrat !important",
     textAlign: "left" as "left",
 }
 
