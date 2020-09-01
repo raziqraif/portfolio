@@ -15,6 +15,7 @@ const feedStyle = {
     display: "flex",
     flexDirection: "column" as "column",
     maxWidth: "900px",
+    margin: "0px 16px",
     alignSelf: "center",
     alignItems: "center",
     justifyContent: "center",
