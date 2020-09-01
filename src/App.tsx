@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavBar from "./navbar";
 import About from "./about"
+import {Container} from "react-bootstrap";
 
 const appStyle = {
     display: "flex",
@@ -15,6 +16,8 @@ const feedStyle = {
     flexDirection: "column" as "column",
     maxWidth: "900px",
     alignSelf: "center",
+    alignItems: "center",
+    justifyContent: "center",
 }
 
 function App() {

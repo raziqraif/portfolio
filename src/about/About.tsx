@@ -1,70 +1,66 @@
 import * as React from 'react';
 import profile from '../images/profile.png'
+import {Col, Container} from "react-bootstrap";
 
 const aboutStyle = {
     display: "flex",
     flexDirection: "row" as "row",
+    flexWrap: "wrap" as "wrap",
+    justifyContent: "center",
     alignItems: "center",
     alignSelf: "center",
     padding: "64px 0px 64px 0px",
 }
 
 const profileImageWidth = "260px"
-const profileImageHeight = "260px"
 
 const imageCropperStyle = {
-    width: profileImageWidth,
-    height: profileImageHeight,
-    position: "relative" as "relative",
-    overflow: "hidden",
+    display: "flex",
+    margin: "0px 0px 0px 0px",
+    padding: "0px 0px 0px 0px",
+    justifyContent: "center",
+    alignItems: "center",
 }
 
 const profileStyle = {
-    display: "inline",
-    margin: "0 auto",
-    height: "100%",
-    width: "auto",
     borderRadius: "4px"
 }
 
-const titleStyle = {
-    fontFamily: "Montserrat",
-    maxWidth: "500px",
-    textAlign: "left" as "left",
-}
-
-const textStyle = {
-    fontFamily: "Montserrat",
-    maxWidth: "500px",
-    textAlign: "left" as "left",
-}
-
 const textWrapperStyle = {
-    height: "100%",
+    maxWidth: "500px",
+    padding: "0px 0px 0px 0px",
 }
 
 const socialsWrapperStyle = {
     display: "flex",
 }
 
+const titleStyle = {
+    fontFamily: "Montserrat",
+    textAlign: "left" as "left",
+}
+
+const textStyle = {
+    fontFamily: "Montserrat",
+    textAlign: "left" as "left",
+}
+
 export default class About extends React.Component {
     render() {
         return (
-            <div id={"about"} style={aboutStyle}>
-                <div id={"text-wrapper"} style={textWrapperStyle}>
+            <Container id={"about"} style={aboutStyle}>
+                <Col id={"text-wrapper"} md="auto" style={textWrapperStyle}>
                     <h1 style={titleStyle}>Hi, I'm Raziq</h1>
                     <p style={textStyle}>I'm a junior at Purdue University majoring in Computer Science and
                         minoring in Mathematics.
                     </p>
                     <div id={"socials-wrapper"} style={socialsWrapperStyle}>
                     </div>
-                </div>
-                <div id={"image-cropper"} style={imageCropperStyle}>
-                    <img src={profile} width={"280px"} alt={"Raziq Ramli"} style={profileStyle}/>
-                </div>
-            </div>
+                </Col>
+                <Col style={imageCropperStyle} md={"auto"}>
+                    <img src={profile} width={profileImageWidth} alt={"Raziq Ramli"} style={profileStyle}/>
+                </Col>
+            </Container>
         );
     }
 }
-// <Button variant={"secondary"}>Resume</Button>
-// <h3>Hello, I'm Raziq</h3>
