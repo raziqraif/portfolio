@@ -1,5 +1,4 @@
 import * as React from 'react';
-import {Button, Nav} from 'react-bootstrap';
 import profile from '../images/profile.png'
 
 const aboutStyle = {
