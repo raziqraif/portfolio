@@ -3,7 +3,7 @@ import {Col, Container, Nav, Navbar} from 'react-bootstrap';
 
 
 const navbarStyle = {
-    maxWidth: "900px",
+    maxWidth: "950px",
 }
 
 export default class NavBar extends React.Component {
