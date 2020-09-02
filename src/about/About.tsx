@@ -10,7 +10,7 @@ const aboutStyle = {
     justifyContent: "space-between",
     alignItems: "center",
     alignSelf: "center",
-    padding: "3rem 0px 3rem 0px",
+    padding: "56px 0px 56px 0px",
 }
 
 const profileImageWidth = "260px"
@@ -38,7 +38,7 @@ const textWrapperStyle = {
 
 const socialsWrapperStyle = {
     display: "flex",
-    width: "40px",
+    width: "43px",
     justifyContent: "space-between",
     alignSelf: "flex-start",
     margin: "0px 0px 24px 0px",
@@ -47,12 +47,14 @@ const socialsWrapperStyle = {
 const titleStyle = {
     fontFamily: "Montserrat !important",
     textAlign: "left" as "left",
+    // fontSize: "34px",
 }
 
 const textStyle = {
     fontFamily: "Montserrat !important",
     textAlign: "left" as "left",
     padding: "0px 0px 0px 0px",
+    fontSize: "16px",
 }
 
 const linkStyle = {
@@ -67,16 +69,18 @@ export default class About extends React.Component {
                     <h1 style={titleStyle}>Hi, I'm Raziq</h1>
                     <div className={"d-flex d-flex-row"}>
                         <p style={textStyle}>I am a junior in Computer Science at Purdue University with a minor in
-                            Mathematics. I am passionate about writing clean software design, and during my free time, I
-                            like to follow the stock market updates and learn to sharpen my investment acumen.
+                            Mathematics. I am deeply passionate about writing
+                            elegant software design, visually and technically. 
                         </p>
                        <div className={"d-none d-md-block"} style={{padding: "0px 8px"}}/>
                     </div>
                     <div id={"socials-wrapper"} style={socialsWrapperStyle}>
-                        <a href={"https://github.com/raziqraif"} target={"_blank"} style={linkStyle}><FaGithub/></a>
+                        <a href={"https://github.com/raziqraif"} target={"_blank"} style={linkStyle}>
+                            <FaGithub size={18} color={"#4a5568"}/>
+                        </a>
                         <a href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"} target={"_blank"}
                            style={linkStyle}>
-                            <FaLinkedin/>
+                            <FaLinkedin size={18} color={"#4a5568"}/>
                         </a>
                     </div>
                 </Col>
