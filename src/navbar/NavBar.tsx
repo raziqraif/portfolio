@@ -4,6 +4,7 @@ import {Col, Container, Nav, Navbar} from 'react-bootstrap';
 
 const navbarStyle = {
     maxWidth: "950px",
+    backgroundColor: "#f6f9fc",
 }
 
 export default class NavBar extends React.Component {

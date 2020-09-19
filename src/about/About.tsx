@@ -2,6 +2,7 @@ import * as React from 'react';
 import profile from '../images/profile.png'
 import {Col, Container, Row} from "react-bootstrap";
 import {FaGithub, FaLinkedin} from "react-icons/fa"
+import TypeWriter from "./Typewriter";
 
 const aboutStyle = {
     display: "flex",
@@ -51,9 +52,11 @@ const titleStyle = {
 }
 
 const textStyle = {
+    lineHeight: "165%",
     fontFamily: "Montserrat !important",
     textAlign: "left" as "left",
     padding: "0px 0px 0px 0px",
+    margin: "16px 0px 24px 0px",
     fontSize: "16px",
 }
 
@@ -65,14 +68,22 @@ export default class About extends React.Component {
     render() {
         return (
             <Container id={"about"} style={aboutStyle}>
-                <Col id={"text-wrapper"} sm={12} md={7} lg={7} xs={12} style={textWrapperStyle}>
-                    <h1 style={titleStyle}>Hi, I'm Raziq</h1>
+                <Col id={"text-wrapper"} sm={12} md={8} lg={8} xs={12} style={textWrapperStyle}>
+                    <div className={"d-flex flex-row"}>
+                        <h1 style={{margin: "0px 16px 0px 0px"}}>{">"}</h1>
+                        <TypeWriter
+                            typingDelay={40} 
+                            erasingDelay={40}
+                            newTextDelay={1000}
+                            textArray={[" ", " Hi, I'm Raziq"]}
+                            loop={false}
+                        ></TypeWriter>
+                    </div>
                     <div className={"d-flex d-flex-row"}>
-                        <p style={textStyle}>I am a junior in Computer Science at Purdue University with a minor in
+                        <div style={textStyle}>I am a junior in Computer Science at Purdue University with a minor in
                             Mathematics. I am deeply passionate about writing
-                            elegant software design, visually and technically. During my free time, I
-                            like to follow stock market updates and learn investment. 
-                        </p>
+                            elegant software design, visually and technically. 
+                        </div>
                        <div className={"d-none d-md-block"} style={{padding: "0px 8px"}}/>
                     </div>
                     <div id={"socials-wrapper"} style={socialsWrapperStyle}>
@@ -85,10 +96,11 @@ export default class About extends React.Component {
                         </a>
                     </div>
                 </Col>
-                <Col style={imageCropperStyle} sm={12} md={5} lg={5} xs={12}>
+                <Col style={imageCropperStyle} sm={12} md={4} lg={4} xs={12}>
                     <img src={profile} width={"100%"} alt={"Raziq Ramli"} style={profileStyle}/>
                 </Col>
             </Container>
         );
     }
 }
+
