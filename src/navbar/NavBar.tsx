@@ -18,7 +18,7 @@ export default class NavBar extends React.Component {
         sticky={"top"}
       >
         <Container style={navbarStyle}>
-          <Navbar.Brand href="/">{"<raziqraif>"}</Navbar.Brand>
+          <Navbar.Brand href="/">{"raziqraif"}</Navbar.Brand>
           <Navbar.Toggle aria-controls={"basic-navbar-nav"} />
           <Navbar.Collapse className={"justify-content-end"}>
             <Nav>
