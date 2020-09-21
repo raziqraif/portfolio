@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from "./navbar";
 import About from "./about"
 import {Container} from "react-bootstrap";
+import Projects from './projects';
 
 const appStyle = {
     display: "flex",
@@ -27,6 +28,7 @@ function App() {
             <NavBar/>
             <div style={feedStyle}>
                 <About/>
+                <Projects/>
             </div>
         </div>
     );
