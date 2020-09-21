@@ -35,7 +35,6 @@ const imageCropperStyleSmall = {
 const profileStyle = {
   //   minWidth: profileImageWidth,
   margin: "0px 0px 0px 0px",
-  objectFit: "cover",
   borderRadius: "4px",
   //   borderRadius: "50%" as "50%",
   boxShadow:
