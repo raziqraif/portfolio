@@ -96,7 +96,7 @@ export default class About extends React.Component {
             <div style={textStyle}>
               I am a junior in Computer Science at Purdue University with a
               minor in Mathematics. I am passionate about building visually
-              appealing software with an elegant technical implementation.
+              appealing software with an elegant technical design.
             </div>
           </div>
           <div id={"socials-wrapper"} style={socialsWrapperStyle}>

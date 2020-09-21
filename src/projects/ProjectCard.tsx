@@ -22,11 +22,11 @@ const titleStyle = {
 
 const descriptionStyle = {
   textAlign: "left" as "left",
-  margin: "0px 0px 32px 0px",
+  margin: "0px 0px 24px 0px",
 };
 
 const technologyStyle = {
-  margin: "0px 10px 0px 0px",
+  margin: "8px 8px 0px 0px",
   fontSize: "14px",
   padding: "4px 8px",
   border: "2px solid #92eac0",
@@ -48,7 +48,7 @@ export default class ProjectCard extends React.Component<
       >
         <h5 style={titleStyle}>{this.props.title}</h5>
         <p style={descriptionStyle}>{this.props.description}</p>
-        <div className="d-flex flex-row">
+        <div className="d-flex flex-row flex-wrap align-content-stretch">
           {this.props.technologies.map((technology: string) => {
             return <p style={technologyStyle}>{technology}</p>;
           })}
