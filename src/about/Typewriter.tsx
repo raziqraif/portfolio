@@ -22,7 +22,7 @@ const TypeWriter: React.FC<ITypeWriter> = ({
   erasingDelay,
   newTextDelay,
   textArray,
-  loop
+  loop,
 }) => {
   const [states, setStates] = React.useState<Array<IDelayText>>([]);
   const [stateIndex, setStateIndex] = React.useState(0);
@@ -35,18 +35,18 @@ const TypeWriter: React.FC<ITypeWriter> = ({
     // create empty array
     const allStates: Array<IDelayText> = [];
     // iterate over all words
-    textArray.forEach(word => {
+    textArray.forEach((word) => {
       // push "h", "ha", etc
       for (let i = 1; i <= word.length; i++)
         allStates.push({
           text: word.substr(0, i),
-          delay: typingDelay
+          delay: typingDelay,
         });
       // push "hard", "har", "ha", etc.
       for (let i = word.length - 1; i >= 0; i--)
         allStates.push({
           text: word.substr(0, i),
-          delay: i === word.length - 1 ? newTextDelay : erasingDelay
+          delay: i === word.length - 1 ? newTextDelay : erasingDelay,
         });
       // push blank text
       allStates.push({ text: "", delay: typingDelay });

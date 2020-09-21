@@ -11,7 +11,7 @@ const aboutStyle = {
   justifyContent: "space-between",
   alignItems: "center",
   alignSelf: "center",
-  padding: "56px 0px 56px 0px",
+  padding: "72px 0px 0px 0px",
 };
 
 const profileImageWidth = "260px";
@@ -60,7 +60,7 @@ const socialsWrapperStyle = {
 
 const textStyle = {
   lineHeight: "165%",
-  fontFamily: "Montserrat",
+  //   fontFamily: "Montserrat",
   textAlign: "left" as "left",
   padding: "0px 0px 0px 0px",
   margin: "16px 0px 24px 0px",
@@ -96,8 +96,8 @@ export default class About extends React.Component {
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
               I am a junior in Computer Science at Purdue University with a
-              minor in Mathematics. I am deeply passionate about writing elegant
-              software design, visually and technically.
+              minor in Mathematics. I am passionate about building visually
+              appealing software with an elegant technical implementation.
             </div>
           </div>
           <div id={"socials-wrapper"} style={socialsWrapperStyle}>
