@@ -1,6 +1,6 @@
 import * as React from "react";
 import profile from "../images/profile.png";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import TypeWriter from "./Typewriter";
 
@@ -53,8 +53,8 @@ const socialsWrapperStyle = {
   display: "flex",
   width: "43px",
   justifyContent: "space-between",
-  alignSelf: "flex-start",
-  margin: "0px 0px 24px 0px",
+  alignSelf: "center",
+  margin: "0px 8px 0px 0px",
 };
 
 const textStyle = {
@@ -94,26 +94,45 @@ export default class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-              I am a junior in Computer Science at Purdue University with a
-              minor in Mathematics, who is passionate about building software
-              that is not just visually appealing, but also well-engineered.
+              I am a Computer Science junior at Purdue University with a minor
+              in Mathematics, who is passionate about building software that is
+              not just visually appealing, but also well-engineered.
             </div>
           </div>
-          <div id={"socials-wrapper"} style={socialsWrapperStyle}>
-            <a
-              href={"https://github.com/raziqraif"}
-              target={"_blank"}
-              style={linkStyle}
+          <div
+            className="d-flex flex-row justify-content-between"
+            style={{ margin: "0px 0px 24px 0px" }}
+          >
+            <Button
+              href="/resume.pdf"
+              target="_blank"
+              variant="dark"
+              style={{
+                outline: "none",
+                boxShadow: "none",
+                borderRadius: "0px",
+                border: "none",
+                fontSize: "13px",
+              }}
             >
-              <FaGithub size={18} color={"#4a5568"} />
-            </a>
-            <a
-              href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"}
-              target={"_blank"}
-              style={linkStyle}
-            >
-              <FaLinkedin size={18} color={"#4a5568"} />
-            </a>
+              Resume
+            </Button>
+            <div id={"socials-wrapper"} style={socialsWrapperStyle}>
+              <a
+                href={"https://github.com/raziqraif"}
+                target={"_blank"}
+                style={linkStyle}
+              >
+                <FaGithub size={18} color={"#4a5568"} />
+              </a>
+              <a
+                href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"}
+                target={"_blank"}
+                style={linkStyle}
+              >
+                <FaLinkedin size={18} color={"#4a5568"} />
+              </a>
+            </div>
           </div>
         </Col>
         <Col

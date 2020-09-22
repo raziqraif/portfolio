@@ -24,10 +24,12 @@ export default class Contacts extends React.Component {
               margin: "8px 0px",
             }}
           >
-            <a href={"mailto: mramli@purdue.edu"}>{"mramli@purdue.edu"}</a>
+            <a href={"mailto: mramli@purdue.edu"} style={{ color: "black" }}>
+              {"mramli@purdue.edu"}
+            </a>
           </div>
           <div className="d-none d-md-block" style={{ padding: "8px 8px" }}>
-            {"||"}
+            {"|"}
           </div>
           <div
             style={{
@@ -38,6 +40,7 @@ export default class Contacts extends React.Component {
               href={"https://github.com/raziqraif"}
               target="_blank"
               style={{
+                color: "black",
                 margin: "8px 0px",
               }}
             >
@@ -45,7 +48,7 @@ export default class Contacts extends React.Component {
             </a>
           </div>
           <div className="d-none d-md-block" style={{ padding: "8px 8px" }}>
-            {"||"}
+            {"|"}
           </div>
           <div
             style={{
@@ -55,6 +58,7 @@ export default class Contacts extends React.Component {
             <a
               href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"}
               target="_blank"
+              style={{ color: "black" }}
             >
               {"LinkedIn"}
             </a>
