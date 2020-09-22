@@ -19,21 +19,41 @@ export default class Contacts extends React.Component {
       >
         <h4 style={titleStyle}>Contact</h4>
         <div
-          className={"d-flex flex-row justify-content-around"}
-          style={{ width: "400px" }}
+          className={"d-flex flex-column flex-md-row"}
+          // style={{ width: "400px" }}
         >
-          <a href={"mailto: mramli@purdue.edu"}>{"mramli@purdue.edu"}</a>
-          <span>{"||"}</span>
-          <a href={"https://github.com/raziqraif"} target="_blank">
-            {"Github"}
-          </a>
-          <span>{"||"}</span>
-          <a
-            href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"}
-            target="_blank"
-          >
-            {"LinkedIn"}
-          </a>
+          <div>
+            <a
+              href={"mailto: mramli@purdue.edu"}
+              style={{ display: "contents", whiteSpace: "pre-wrap" }}
+            >
+              {"mramli@purdue.edu"}
+            </a>
+          </div>
+          <div className="d-none d-md-block" style={{ padding: "0px 8px" }}>
+            {"||"}
+          </div>
+          <div>
+            <a
+              href={"https://github.com/raziqraif"}
+              target="_blank"
+              style={{ display: "contents", whiteSpace: "pre-wrap" }}
+            >
+              {"Github"}
+            </a>
+          </div>
+          <div className="d-none d-md-block" style={{ padding: "0px 8px" }}>
+            {"||"}
+          </div>
+          <div>
+            <a
+              href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"}
+              target="_blank"
+              style={{ display: "contents", whiteSpace: "pre-wrap" }}
+            >
+              {"LinkedIn"}
+            </a>
+          </div>
         </div>
       </div>
     );
