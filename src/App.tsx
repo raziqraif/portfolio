@@ -31,9 +31,17 @@ function App() {
         <About />
         <Projects />
         <Contact />
-        <span style={{ color: "grey", padding: "0px 0px 48px 0px" }}>
-          Built by raziqraif @ 2020
-        </span>
+        <div
+          // className="d-flex flex-row justify-content-between w-100"
+          style={{
+            color: "grey",
+            padding: "0px 0px 48px 0px",
+            fontSize: "12px",
+          }}
+        >
+          <span>Built with ReactJS © 2020 Raziq R. Ramli</span>
+          {/* <span> © 2020 Raziq R. Ramli</span> */}
+        </div>
       </div>
     </div>
   );
