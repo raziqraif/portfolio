@@ -108,6 +108,7 @@ export default class About extends React.Component {
               target="_blank"
               variant="dark"
               style={{
+                background: "black",
                 outline: "none",
                 boxShadow: "none",
                 borderRadius: "0px",
