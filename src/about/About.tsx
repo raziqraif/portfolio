@@ -95,8 +95,8 @@ export default class About extends React.Component {
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
               I am a Computer Science junior at Purdue University with a minor
-              in Mathematics, who is passionate about building software that is
-              not just visually appealing, but also well-engineered.
+              in Mathematics and a passion for building visually appealing and
+              well-engineered software.
             </div>
           </div>
           <div
