@@ -11,6 +11,17 @@ export interface ProjectType {
 }
 
 const projects: ProjectType[] = [
+  // {
+  //   title: "AgMIP GlobalEcon Data Uploader",
+  //   description:
+  //     "SIMPLE-G US is a research software that allows users to analyze and visualize geospatial data for agricultural \
+  //     prices, land use, and the environment in the United States region. I rebuilt this software as a Jupyter notebook \
+  //     application during my internship with \
+  //     Rosen Center for Advanced Computing. The reimplementation gives the software access to state-of-the-art \
+  //     packages, allowing new features that cater to researchers' needs to be implemented.",
+  //   technologies: ["Python", "Jupyter", "SQLite", "GDAL", "Ipymaterialui"],
+  //   githubLink: "https://github.com/raziqraif/simple-us",
+  // },
   {
     title: "SIMPLE-G US",
     description:
@@ -23,13 +34,22 @@ const projects: ProjectType[] = [
     githubLink: "https://github.com/raziqraif/simple-us",
   },
   {
+    title: "Techno-Economic Analysis (TEA)",
+    description:
+      "TEA is a proprietary tool suite for conducting techno-economic assessments (TEA) on the technology projects at Critical Material Institute. \
+      I committed to \
+      this project when I was the software developer at Purdue University Environmental and Ecological Engineering department. \
+      Throughout my time here, I have developed mechanisms for reporting preliminary TEA, dynamic TEA, mass flow estimates, and energy \
+      costs estimates.", 
+      technologies: ["Python", "Tkinter", "Pygubu"],
+  },
+  {
     title: "Fortune",
     description:
       "Fortune is a cryptocurrency trading game that operates on real time cryptocurrency data. It was a team project for my \
       Software Engineering course. I contributed to this project by developing the admin functionalities, the game \
       management page, and the game chat feature between players. I was involved in both the frontend and backend development \
-      processes throughout this project, from designing the user interface to developing the APIs and the database \
-      tables.",
+      processes throughout this project.",
     technologies: [
       "ReactJS",
       "Typescript",
@@ -39,16 +59,6 @@ const projects: ProjectType[] = [
       "PostgreSQL",
     ],
     githubLink: "https://github.com/raziqraif/fortune",
-  },
-  {
-    title: "Techno-Economic Analysis (TEA)",
-    description:
-      "TEA is a proprietary tool suite made for analyzing the technology projects at Critical Material Institute. I committed to \
-      this project when I was the software developer at Purdue University Environmental and Ecological Engineering department. My \
-      contributions to this project include re-engineering the legacy codebase by employing new abstractions and adopting RAD tool \
-      into the development process. I also streamlined \
-      the existing UI/UX design by simplifying user operations and adding support for multiple workspaces",
-    technologies: ["Python", "Tkinter", "Pygubu"],
   },
   {
     title: "Fighter VR",
