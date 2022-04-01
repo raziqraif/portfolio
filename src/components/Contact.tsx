@@ -9,7 +9,7 @@ const titleStyle = {
   padding: "0px 0px 16px 0px",
 };
 
-export default class Contacts extends React.Component {
+export class Contacts extends React.Component {
   render() {
     return (
       <div
@@ -56,7 +56,7 @@ export default class Contacts extends React.Component {
             }}
           >
             <a
-              href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"}
+              href={"https://www.linkedin.com/in/raziq-ramli-723a13156/"}
               target="_blank"
               style={{ color: "black" }}
             >

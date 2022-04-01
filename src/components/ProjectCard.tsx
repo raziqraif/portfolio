@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Col, Container, Nav, Navbar } from "react-bootstrap";
-import { ProjectType } from "./Projects";
+import { ProjectType } from "./Experience";
 
 interface ProjectCardStates {}
 
@@ -33,7 +33,7 @@ const technologyStyle = {
   borderRadius: "4px",
 };
 
-export default class ProjectCard extends React.Component<
+export class ProjectCard extends React.Component<
   ProjectType,
   ProjectCardStates
 > {

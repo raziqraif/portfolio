@@ -51,7 +51,7 @@ const textWrapperStyle = {
 
 const socialsWrapperStyle = {
   display: "flex",
-  width: "43px",
+  width: "48px",
   justifyContent: "space-between",
   alignSelf: "center",
   margin: "0px 8px 0px 0px",
@@ -70,7 +70,7 @@ const linkStyle = {
   color: "#000000",
 };
 
-export default class About extends React.Component {
+export class About extends React.Component {
   render() {
     return (
       <Container id={"about"} style={aboutStyle}>
@@ -94,8 +94,11 @@ export default class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-              I am a Computer Science major at Purdue University with a minor
-              in Mathematics and a passion for building meaningful software
+              I am a Computer Science major at Purdue University with a minor in Mathematics. 
+              I am passionate about building meaningful software and participating in 
+              lower-level software 
+              development. Currently, I am researching a scalable pointer analysis technique at the 
+              Reliable and Secure Systems Lab at Purdue.
             </div>
           </div>
           <div
@@ -123,14 +126,14 @@ export default class About extends React.Component {
                 target={"_blank"}
                 style={linkStyle}
               >
-                <FaGithub size={18} color={"#4a5568"} />
+                <FaGithub size={"20px"} color={"#4a5568"} />
               </a>
               <a
                 href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"}
                 target={"_blank"}
                 style={linkStyle}
               >
-                <FaLinkedin size={18} color={"#4a5568"} />
+                <FaLinkedin size={"20px"} color={"#4a5568"} />
               </a>
             </div>
           </div>

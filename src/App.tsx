@@ -2,11 +2,8 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import NavBar from "./navbar";
-import About from "./about";
+import {NavBar, About, Contacts, Experience } from "./components";
 import { Container } from "react-bootstrap";
-import Projects from "./projects";
-import Contact from "./contact";
 
 const appStyle = {
   display: "flex",
@@ -16,7 +13,7 @@ const appStyle = {
 const feedStyle = {
   display: "flex",
   flexDirection: "column" as "column",
-  maxWidth: "900px",
+  maxWidth: "1200px",
   margin: "0px 24px",
   alignSelf: "center",
   alignItems: "center",
@@ -29,8 +26,8 @@ function App() {
       <NavBar />
       <div style={feedStyle}>
         <About />
-        <Projects />
-        <Contact />
+        <Experience/>
+        <Contacts />
         <div
           // className="d-flex flex-row justify-content-between w-100"
           style={{
@@ -39,7 +36,7 @@ function App() {
             fontSize: "12px",
           }}
         >
-          <span>Built with ReactJS © 2020 Raziq R. Ramli</span>
+          <span>Built with ReactJS © 2022 Raziq R. Ramli</span>
           {/* <span> © 2020 Raziq R. Ramli</span> */}
         </div>
       </div>

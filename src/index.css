@@ -12,6 +12,10 @@ body {
   /* background-color: #f6f9fc; */
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 code {
   /* font-family: "Montserrat"; */
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

@@ -2,12 +2,12 @@ import * as React from "react";
 import { Col, Container, Nav, Navbar } from "react-bootstrap";
 
 const navbarStyle = {
-  maxWidth: "950px",
+  maxWidth: "1200px",
   //   backgroundColor: "#f6f9fc",
   backgroundColor: "#ffffff",
 };
 
-export default class NavBar extends React.Component {
+export class NavBar extends React.Component {
   render() {
     return (
       <Navbar
@@ -26,7 +26,7 @@ export default class NavBar extends React.Component {
                 Resume
               </Nav.Link> */}
               <Nav.Link href={"#about"}>About</Nav.Link>
-              <Nav.Link href={"#projects"}>Projects</Nav.Link>
+              <Nav.Link href={"#experience"}>Experience</Nav.Link>
               <Nav.Link href={"#contact"}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
