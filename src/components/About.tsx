@@ -95,7 +95,7 @@ export class About extends React.Component {
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
               I am a Computer Science major at Purdue University with a minor in Mathematics. 
-              I am passionate about building meaningful software and participating in 
+              I am passionate about building meaningful software and working on 
               lower-level software 
               development. Currently, I am researching a scalable pointer analysis technique at the 
               Reliable and Secure Systems Lab at Purdue.
@@ -129,7 +129,7 @@ export class About extends React.Component {
                 <FaGithub size={"20px"} color={"#4a5568"} />
               </a>
               <a
-                href={"https://www.linkedin.com/in/raziq-raif-ramli-723a13156/"}
+                href={"https://www.linkedin.com/in/raziq-ramli-723a13156/"}
                 target={"_blank"}
                 style={linkStyle}
               >

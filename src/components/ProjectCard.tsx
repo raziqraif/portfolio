@@ -47,7 +47,7 @@ export class ProjectCard extends React.Component<
         style={cardStyle}
       >
         <h5 style={titleStyle}>{this.props.title}</h5>
-        <p style={descriptionStyle}>{this.props.description}</p>
+        <div style={descriptionStyle}>{this.props.description}</div>
         <div className="d-flex flex-row flex-wrap align-content-stretch">
           {this.props.technologies.map((technology: string) => {
             return <p style={technologyStyle}>{technology}</p>;
