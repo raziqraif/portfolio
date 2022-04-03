@@ -94,10 +94,9 @@ export class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-              I am a Computer Science major at Purdue University with a minor in Mathematics. 
-              I am passionate about building meaningful software and working on 
-              lower-level software 
-              development. Currently, I am researching a scalable pointer analysis technique at the 
+              I am a Computer Science major at Purdue University. I enjoy scientific 
+              computing and lower-level software development. 
+              Currently, I am researching a scalable pointer analysis technique at the 
               Reliable and Secure Systems Lab at Purdue.
             </div>
           </div>

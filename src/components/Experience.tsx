@@ -15,17 +15,17 @@ const projects: ProjectType[] = [
     title: "Parallel Whole-Program Analysis (PWPA)",
     description: (
       <div>
-        Pointer analysis is a fundamental type of program analysis. It establishes which memory locations a pointer can refer to throughout a program's lifetime. It is beneficial for applications in program security and bug detection. However, the analysis process can be time-intensive, which motivates the development of PWPA, an effort to make pointer analysis scalable. In this project, I am developing a novel parallelization technique for pointer analysis and studying its impact on large-scale systems.
+        Pointer analysis is a code analysis technique. It is beneficial in areas like program security and bug detection. However, the analysis can be time-consuming. This limitation motivates the development of PWPA, which is an effort to make pointer analysis scalable. In this project, I am developing a novel parallelization technique for pointer analysis and studying its impact on large-scale systems.
       </div>
     ),
     technologies: ["C++", "SVF", "LLVM"],
     githubLink: "https://github.com/raziqraif/simple-us",
   },
   {
-    title: "AgMIP Global Economics Data Uploader",
+    title: "AgMIP Global Economics Data Submission",
     description: (
       <div>
-        Global Economics is an international research team under the <a href="https://agmip.org/" target="_blank">AgMIP Project</a>. It consists of data modeling groups with a differing research focus. These groups engage in an ensemble modeling activity, where they jointly contribute their model data into interoperable data repositories. As their projects grow, maintaining the interoperability of these repositories becomes more challenging. I developed a data processing pipeline for the team to streamline this process.
+        Global Economics is an international research team under the <a href="https://www.agmip.org" target="_blank">AgMIP Project</a>. They conduct projections in the climate change space and use the output to publish interoperable data repositories. As their projects grow, maintaining these repositories becomes more challenging. I designed an automated data processing pipeline to streamline this collaborative process.
       </div>
     ),
     technologies: ["Python", "Pandas", "Ipywidgets", "Selenium", "Pytest", "GitHub Action"],
@@ -35,7 +35,7 @@ const projects: ProjectType[] = [
     title: "SIMPLE-G US",
     description:
       <div>
-        SIMPLE-G US is a geospatial analysis software for agricultural data. It supports scientific studies on long-term sustainability issues in the US, focusing on food, water, and the environment. The legacy version of this software has restricted graphical capabilities due to its library's limitations. I rebuilt the software with a cutting-edge graphics package, enabling the implementation of new visualization features that accommodate changing research requirements.
+        SIMPLE-G US is a geospatial analysis software for agricultural data. It supports studies on long-term sustainability issues in the US. The legacy version of this software has restricted graphical capabilities due to a dated set of libraries. I rebuilt the software using modern packages, enabling new visualization features that accommodate changing research requirements.
       </div>,
     technologies: ["Python", "GDAL", "SQLite", "Ipyeaflet", "Ipymaterialui"],
     githubLink: "https://github.com/raziqraif/simple-us",
@@ -44,7 +44,7 @@ const projects: ProjectType[] = [
     title: "CMI-TEA",
     description:
       <div>
-        Critical Materials Institute (CMI) is an innovation hub under the Department of Energy. It focuses on developing resilient supply chains for materials crucial to clean energy technologies. To optimize the economic performance of CMI's technologies, CMI-TEA was developed. It is proprietary software for CMI researchers to conduct <i>techno-economic assessment</i> (TEA) on their processes. I spearheaded the technical development of the software from prototype until maturity.
+        Critical Materials Institute (CMI) is an innovation hub under the Department of Energy. Its objective is to develop resilient supply chains for materials in clean energy technologies. CMI-TEA is proprietary software for optimizing the economic performance of CMI's ventures. I spearheaded the technical development of the software from prototype until maturity.
       </div>,
     technologies: ["Python", "Tkinter", "Pygubu"],
   },
