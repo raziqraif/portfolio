@@ -15,7 +15,7 @@ const projects: ProjectType[] = [
     title: "Parallel Whole-Program Analysis (PWPA)",
     description: (
       <div>
-        Pointer analysis is a code analysis technique. It is beneficial in areas like program security and bug detection. However, the analysis can be time-consuming. This limitation motivates the development of PWPA, which is an effort to make pointer analysis scalable. In this project, I am developing a novel parallelization technique for pointer analysis and studying its impact on large-scale systems.
+        Pointer analysis is a code analysis technique. It is beneficial in areas like program security and bug detection. However, the analysis can be time-consuming. This limitation motivates the development of PWPA, which is an effort to make pointer analysis scalable. In this project, I am developing a parallelization technique for pointer analysis and studying its impact on real-world systems.
       </div>
     ),
     technologies: ["C++", "SVF", "LLVM"],
@@ -25,7 +25,7 @@ const projects: ProjectType[] = [
     title: "AgMIP Global Economics Data Submission",
     description: (
       <div>
-        Global Economics is an international research team under the <a href="https://www.agmip.org" target="_blank">AgMIP Project</a>. They conduct projections in the climate change space and use the output to publish interoperable data repositories. As their projects grow, maintaining these repositories becomes more challenging. I designed an automated data processing pipeline to streamline this collaborative process.
+        Global Economics is an international research team under the <a href="https://www.agmip.org" target="_blank">AgMIP Project</a>. They conduct climate-related projections and use the outputs to build interoperable data repositories. As their projects grow, maintaining these repositories becomes more challenging. I designed an automated data processing pipeline to streamline this process.
       </div>
     ),
     technologies: ["Python", "Pandas", "Ipywidgets", "Selenium", "Pytest", "GitHub Action"],
