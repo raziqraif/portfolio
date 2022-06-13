@@ -35,7 +35,7 @@ const projects: ProjectType[] = [
     title: "SIMPLE-G US",
     description:
       <div>
-        SIMPLE-G US is a geospatial analysis software for agricultural data. It supports studies on long-term sustainability issues in the US. The legacy version of this software has restricted graphical capabilities due to a dated set of libraries. I rebuilt the software using modern packages, enabling new visualization features that accommodate changing research requirements.
+        SIMPLE-G US is a geospatial analysis software for agricultural data. It supports studies on long-term sustainability issues in the US. The legacy version of this software has restricted graphical capabilities due to a dated set of libraries. I rebuilt the software using modern packages, enabling visualization features that accommodate new research requirements.
       </div>,
     technologies: ["Python", "GDAL", "SQLite", "Ipyeaflet", "Ipymaterialui"],
     githubLink: "https://github.com/raziqraif/simple-us",
