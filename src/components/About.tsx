@@ -104,7 +104,7 @@ export class About extends React.Component {
             className="d-flex flex-row justify-content-between"
             style={{ margin: "0px 0px 24px 0px" }}
           >
-            <Button
+            {/* <Button
               href="/resume.pdf"
               target="_blank"
               variant="dark"
@@ -118,7 +118,7 @@ export class About extends React.Component {
               }}
             >
               Resume
-            </Button>
+            </Button> */}
             <div id={"socials-wrapper"} style={socialsWrapperStyle}>
               <a
                 href={"https://github.com/raziqraif"}
