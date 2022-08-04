@@ -35,7 +35,7 @@ const imageCropperStyleSmall = {
 const profileStyle = {
   //   minWidth: profileImageWidth,
   margin: "0px 0px 0px 0px",
-  borderRadius: "4px",
+  borderRadius: "24px",
   //   borderRadius: "50%" as "50%",
   boxShadow:
     "0 50px 100px rgba(50, 50, 93, 0.05),\
@@ -77,8 +77,8 @@ export class About extends React.Component {
         <Col
           id={"text-wrapper"}
           sm={12}
-          md={8}
-          lg={8}
+          md={12}
+          lg={10}
           xs={12}
           style={textWrapperStyle}
         >
@@ -94,7 +94,7 @@ export class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-              I am a recent Computer Science graduate from Purdue University. I enjoy scientific 
+              I am a Computer Science graduate from Purdue University. I enjoy scientific 
               computing and lower-level software development. 
               Currently, I am researching a scalable pointer analysis technique at the 
               Reliable and Secure Systems Lab at Purdue.
@@ -137,36 +137,38 @@ export class About extends React.Component {
             </div>
           </div>
         </Col>
-        <Col
-          className={"d-md-none"}
-          style={imageCropperStyleSmall}
-          sm={12}
-          md={4}
-          lg={4}
-          xs={12}
-        >
-          <img
-            src={profile}
-            style={profileStyle}
-            width={"100%"}
-            alt={"Raziq Ramli"}
-          />
-        </Col>
-        <Col
-          className={"d-none d-md-block"}
-          style={imageCropperStyle}
-          sm={12}
-          md={4}
-          lg={4}
-          xs={12}
-        >
-          <img
-            src={profile}
-            style={profileStyle}
-            width={"100%"}
-            alt={"Raziq Ramli"}
-          />
-        </Col>
+{/*
+      <Col
+        className={"d-md-none"}
+        style={imageCropperStyleSmall}
+        sm={12}
+        md={4}
+        lg={4}
+        xs={12}
+      >
+        <img
+          src={profile}
+          style={profileStyle}
+          width={"100%"}
+          alt={"Raziq Ramli"}
+        />
+      </Col>
+      <Col
+        className={"d-none d-md-block"}
+        style={imageCropperStyle}
+        sm={12}
+        md={4}
+        lg={4}
+        xs={12}
+      >
+        <img
+          src={profile}
+          style={profileStyle}
+          width={"100%"}
+          alt={"Raziq Ramli"}
+        />
+      </Col>
+*/}
       </Container>
     );
   }
