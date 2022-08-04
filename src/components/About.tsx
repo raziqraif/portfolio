@@ -94,10 +94,11 @@ export class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-              I am a Computer Science graduate from Purdue University. I enjoy scientific 
-              computing and lower-level software development. 
-              Currently, I am researching a scalable pointer analysis technique at the 
-              Reliable and Secure Systems Lab at Purdue.
+            I am a Purdue Computer Science graduate who enjoys scientific computing 
+            and system software development. Previously, I developed 
+            software solutions that support multi-national 
+            research on sustainability issues. Currently, I am researching 
+            a scalable pointer analysis technique at Purdue RSSys Lab.
             </div>
           </div>
           <div
