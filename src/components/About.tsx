@@ -94,18 +94,15 @@ export class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-            {/* I am a Computer Science graduate from Purdue University. 
+              {/* I am a Computer Science graduate from Purdue University. 
             <br/>
             <br/> */}
-            I am passionate about building meaningful software, and my interest lies 
-            in scientific computing 
-            and system software. Previously, I developed 
-            software solutions that support multi-national 
-            research efforts on sustainability issues. Currently, I am 
-            developing a scalable pointer analysis project at Purdue RSSys Lab, and will be joining
-            the Compiler Engineering team at Qualcomm. 
-
-
+              I am passionate about building meaningful software.
+              In the past, I have worked on scientific software that supports research 
+              efforts on global sustainability issues. 
+              Currently, I am developing a scalable pointer analysis platform at 
+              Purdue RSSys Lab under Dr. Tapti Palit. 
+              In the coming weeks, I will join the Compiler Engineering team at Qualcomm.
             </div>
           </div>
           <div
@@ -145,7 +142,7 @@ export class About extends React.Component {
             </div>
           </div>
         </Col>
-{/*
+        {/*
       <Col
         className={"d-md-none"}
         style={imageCropperStyleSmall}
