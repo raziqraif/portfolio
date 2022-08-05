@@ -88,7 +88,7 @@ export class About extends React.Component {
               typingDelay={40}
               erasingDelay={40}
               newTextDelay={1000}
-              textArray={[" ", " Hi, I'm Raziq"]}
+              textArray={[" ", " Hey, I'm Raziq"]}
               loop={false}
             ></TypeWriter>
           </div>
@@ -97,12 +97,12 @@ export class About extends React.Component {
               {/* I am a Computer Science graduate from Purdue University. 
             <br/>
             <br/> */}
-              I am passionate about building meaningful software.
-              In the past, I have worked on scientific software that supports research 
-              efforts on global sustainability issues. 
-              Currently, I am developing a scalable pointer analysis platform at 
-              Purdue RSSys Lab under Dr. Tapti Palit. 
-              In the coming weeks, I will join the Compiler Engineering team at Qualcomm.
+              I am passionate about building meaningful software. 
+              In the past, I have worked on scientific software for 
+              researchers studying global sustainability issues. 
+              Currently, I am developing a parallel pointer analysis 
+              platform at Purdue RSSys Lab under Dr. Tapti Palit.
+              I will also be joining the Compiler Engineering team at Qualcomm.
             </div>
           </div>
           <div
