@@ -101,8 +101,8 @@ export class About extends React.Component {
               In the past, I have worked on scientific software for 
               researchers studying global sustainability issues. 
               Currently, I am developing a parallel pointer analysis 
-              platform at Purdue RSSys Lab under Dr. Tapti Palit.
-              I will also be joining the Compiler Engineering team at Qualcomm.
+              framework for modular software at Purdue RSSys Lab.
+              {/* I will also be joining the Compiler Engineering team at Qualcomm. */}
             </div>
           </div>
           <div
