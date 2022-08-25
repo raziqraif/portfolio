@@ -85,7 +85,7 @@ export class About extends React.Component {
           <div className={"d-flex flex-row"}>
             <h1 style={{ margin: "0px 16px 0px 0px" }}>{">"}</h1>
             <TypeWriter
-              typingDelay={40}
+              typingDelay={0}
               erasingDelay={40}
               newTextDelay={1000}
               textArray={[" ", " Hey, I'm Raziq"]}
@@ -97,11 +97,11 @@ export class About extends React.Component {
               {/* I am a Computer Science graduate from Purdue University. 
             <br/>
             <br/> */}
-              I love building meaningful software. 
-              In the past, I have contributed to scientific software for 
+              I enjoy building meaningful software. 
+              In the past, I contributed to scientific tools for 
               researchers studying global sustainability issues. 
               Currently, I am developing a parallel pointer analysis 
-              framework for modular software at Purdue RSSys Lab.
+              framework for modular system at Purdue RSSys Lab.
               {/* I will also be joining the Compiler Engineering team at Qualcomm. */}
             </div>
           </div>
