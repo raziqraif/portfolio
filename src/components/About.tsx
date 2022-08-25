@@ -98,7 +98,7 @@ export class About extends React.Component {
             <br/>
             <br/> */}
               I love building meaningful software. 
-              In the past, I have worked on scientific software for 
+              In the past, I have contributed to scientific software for 
               researchers studying global sustainability issues. 
               Currently, I am developing a parallel pointer analysis 
               framework for modular software at Purdue RSSys Lab.
