@@ -85,9 +85,9 @@ export class About extends React.Component {
           <div className={"d-flex flex-row"}>
             <h1 style={{ margin: "0px 16px 0px 0px" }}>{">"}</h1>
             <TypeWriter
-              typingDelay={0}
+              typingDelay={40}
               erasingDelay={40}
-              newTextDelay={1000}
+              newTextDelay={0}
               textArray={[" ", " Hey, I'm Raziq"]}
               loop={false}
             ></TypeWriter>
