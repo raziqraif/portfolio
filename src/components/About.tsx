@@ -98,7 +98,7 @@ export class About extends React.Component {
             <br/>
             <br/> */}
               I make scientific software and programs that take another program as input. 
-              I previously contributed to several tools for 
+              I have previously developed tools for 
               researchers studying global sustainability issues. 
               Currently, I am at Purdue RSSys Lab, designing a parallel pointer analysis framework for modular system.
               {/* I will also be joining the Compiler Engineering team at Qualcomm. */}
