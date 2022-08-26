@@ -94,7 +94,7 @@ export class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-              I make scientific software and compilers. I previously developed analysis tools for researchers studying global sustainability issues. Currently, I am at Purdue RSSys Lab, designing a parallel pointer analysis framework for modular system.
+              I make scientific software and compilers. I previously developed analysis tools for researchers studying global sustainability issues. Currently, I am at Purdue RSSys Lab, designing a pointer analysis framework for modular systems.
               {/* I will also be joining the Compiler Engineering team at Qualcomm. */}
             </div>
           </div>
