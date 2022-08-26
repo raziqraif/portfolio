@@ -97,8 +97,8 @@ export class About extends React.Component {
               {/* I am a Computer Science graduate from Purdue University. 
             <br/>
             <br/> */}
-              I enjoy building software that positively impacts communities. 
-              I previously contributed to scientific tools for 
+              I make scientific software and programs that take another program as input. 
+              I previously contributed to several tools for 
               researchers studying global sustainability issues. 
               Currently, I am at Purdue RSSys Lab, designing a parallel pointer analysis framework for modular system.
               {/* I will also be joining the Compiler Engineering team at Qualcomm. */}
