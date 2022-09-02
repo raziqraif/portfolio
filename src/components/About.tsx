@@ -88,7 +88,7 @@ export class About extends React.Component {
               typingDelay={40}
               erasingDelay={40}
               newTextDelay={40}
-              textArray={[" ", " Hey, I'm Raziq"]}
+              textArray={[" ", " Hi, I'm Raziq"]}
               loop={false}
             ></TypeWriter>
           </div>
