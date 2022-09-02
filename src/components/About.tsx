@@ -94,7 +94,7 @@ export class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-              I am an incoming Compiler Engineer at Qualcomm. I am also involved with Purdue RSSys Lab, developing a technique for improving pointer analysis performance. Before my current role, I was an undergraduate at Purdue University, where I primarily designed scientific software for sustainability research groups.
+              I am an incoming Compiler Engineer at Qualcomm. I am also involved with Purdue RSSys Lab, developing a technique for improving pointer analysis performance. Before my current role, I primarily designed scientific software for sustainability research groups.
             </div>
           </div>
           <div
