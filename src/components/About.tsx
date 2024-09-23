@@ -94,7 +94,10 @@ export class About extends React.Component {
           </div>
           <div className={"d-flex d-flex-row"}>
             <div style={textStyle}>
-              I am a graphics compiler engineer at Qualcomm working on OpenCL code generation and optimization. Generally, I am interested in using mathematical theories to make correct, performant, and secure systems. I am also interested in how computing can help us answer questions regarding the human brain, in particular, regarding cognition. Previously, I was an undergraduate at Purdue University, focusing on algorithmic foundations and systems programming.
+              I am a graphics compiler engineer at Qualcomm working on OpenCL code generation and optimization.
+               Generally, I am interested in using mathematical theories to make correct, performant, and secure systems.
+                I am also interested in learning about the human brain, in particular, cognition, through the lens of computing.
+                Previously, I was an undergraduate at Purdue University, focusing on algorithmic foundations and systems programming.
             </div>
           </div>
           <div
