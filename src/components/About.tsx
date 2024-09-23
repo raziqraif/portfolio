@@ -97,7 +97,7 @@ export class About extends React.Component {
               I am a graphics compiler engineer at Qualcomm working on OpenCL code generation and optimization.
                Generally, I am interested in using mathematical theories to make correct, performant, and secure systems.
                 I am also interested in learning about the human brain, in particular, cognition, through the lens of computation.
-                Previously, I was an undergraduate at Purdue University, focusing on algorithmic foundations and systems programming.
+                Previously, I was a CS undergraduate at Purdue University, focusing on algorithmic foundations and systems software.
             </div>
           </div>
           <div
