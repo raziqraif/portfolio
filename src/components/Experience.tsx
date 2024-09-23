@@ -15,7 +15,7 @@ const projects: ProjectType[] = [
     title: "Parallel Whole-Program Analysis (PWPA)",
     description: (
       <div>
-        I am co-developing a parallel framework for scaling pointer analysis performance. If you are unfamiliar, pointer analysis is a code analysis technique beneficial for areas like program security. However, pointer analysis calculations can be time-consuming. This project aims to tackle this limitation using parallelization and problem space reduction methods. 
+        I developed a parallel pointer analysis framework to scale the performance for modular software. Pointer analysis is often beneficial in areas like program optimization and security. However, the execution can be time intensive. This project's goal was to address this limitation by taking advantage of parallelism and redundancy in modular softare architecture.
       </div>
     ),
     technologies: ["C++", "SVF", "LLVM"],
