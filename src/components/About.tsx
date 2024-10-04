@@ -96,7 +96,7 @@ export class About extends React.Component {
             <div style={textStyle}>
               I am a compiler engineer at Qualcomm working on OpenCL code generation and optimization for graphics hardware.
                Generally, I am interested in using mathematical theories to make correct, performant, and secure systems.
-                I am also interested in learning about the human brain, in particular, intelligence, through the lens of computation.
+                I am also interested in learning about the human brain from the perspective of computation.
                 Previously, I was a CS undergraduate at Purdue University, focusing on algorithmic foundations and systems software.
             </div>
           </div>
